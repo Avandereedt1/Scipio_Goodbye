@@ -1,0 +1,33 @@
+:root {
+    --main-color: rgb(12, 11, 9);
+    --main-contrast-color: rgb(87, 163, 125);
+    --accent-color: rgb(238, 200, 14);
+    --accent-contrast-color: rgb(3, 31, 41);
+}
+{
+    width: 2578px;
+height: 18047px;
+}
+body{
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    background-color: var(--main-contrast-color);
+}
+
+html,
+body {
+    margin: 0;
+} 
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  img {
+    max-width: 100%;
+  }
+
+
+.center {
+    margin: 0 auto;
+    max-width: 1440;
+    width: 80%;
+}
